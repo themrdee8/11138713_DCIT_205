@@ -22,3 +22,5 @@ Senyo Dedoo
 I have learned how to create a 10-page website
 Learned how to use HTML elements and tags more efficiently
 Gained a deeper understanding and apprreciation for CSS
+
+## Screenshots of Website
