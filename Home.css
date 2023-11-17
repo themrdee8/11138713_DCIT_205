@@ -1,3 +1,261 @@
+ * {
+    margin: 0;
+    padding: 0;
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
 body {
-    background-image: url(oscar-nord-unsplash.jpg);
+    background-color: #E5DBCE;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.read-more:hover {
+    color: brown;
+}
+
+.info:hover {
+    color: black;
+}
+
+.program-title {
+    font-size: large;
+    font-weight: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.program {
+    background-color: #959493;
+    border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    padding: 50px;
+    padding-bottom: 0;
+    border-radius: 50px;
+    float: left;
+    display: inline-flex;
+}
+
+i {
+    padding-right: 20px;
+}
+.program-title {
+    font-weight: 300;
+}
+
+.program-div {
+    padding: 10px;
+    margin: auto;
+    display: grid;
+}
+
+.info {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.read-more {
+    padding-top: 20px;
+    text-align: center;
+   /*  background-color: rgba(255, 255, 255, 0.5); */
+    border-radius: 10px;
+    padding-bottom: 20px;
+    color: #9B6A42;
+}
+
+.programmes {
+    display: grid;
+    grid-template-areas: 
+    "undergrad undergrad masters masters"
+    "phd phd short-course short-course";
+    /* grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px); */
+    padding-top: 10px;
+    background-color: transparent;
+}
+
+#undergrad {
+    grid-area: undergrad;
+}
+
+#masters {
+    grid-area: masters;
+
+}
+
+#phd {
+    grid-area: phd;
+}
+
+#short-course {
+    grid-area: short-course;
+}
+
+
+.container-header {
+    background-image: url(https://images.unsplash.com/photo-1609864031983-4c77af00b8d7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 100px;
+    height: 200px;
+    background-repeat: no-repeat;
+    width: auto;
+}
+  
+.header {
+    text-align: center;
+    padding: 50px;
+}
+
+.program:hover {
+    background-color: azure;
+}
+
+#nav-bar {
+    width: 50%;
+    height: 50px;
+    max-width: 300px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    padding-top: 10px;
+}
+
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
+
+header {
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+li {
+    list-style-type: none;
+}
+
+#contact {
+    border: 3px solid #0C3406;
+    background-color: #0C3406;
+    color: #E2E3F0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "email phone";
+    height: 20vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+} 
+
+#contact span {
+    font-weight: bold;
+}
+
+#contact i {
+    padding-right: 4px;
+}
+
+.entry-requirements {
+    background-image: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding-top: 20px;
+    width: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+} 
+
+.entry {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.entry i {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.entry:hover {
+    background-color: #A56F29;
+}
+#entry-info {
+    color: black;
+}
+
+.student-projects {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding-top: 20px;
+    background-image: url(https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    border-image-width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+} 
+
+.projects {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.projects i {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.projects:hover {
+    background-color: #A56F29;
+}
+
+.extra {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
