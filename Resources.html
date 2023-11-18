@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Computer Science Department</title>
     <link rel="stylesheet" href="Resources.css">
+    <link rel="stylesheet" href="Home.css">
+    <script src="https://kit.fontawesome.com/b1984f5303.js" crossorigin="anonymous"></script>
   </head>
   <header>
+    <h1>Computer Science</h1>
     <nav id="nav-bar">
       <ul>
         <li>
@@ -25,27 +28,68 @@
     </nav>
   </header>
   <body>
-    <h1>Resources</h1>
-    <p>state of the art computer labs</p>
-    <p>research labs</p>
-    <p>teacher assistants</p>
+    <div class="page-title">
+      <h1>Resources</h1>
+      <p class="arrow">
+        <a href="Home.html">Home</a>
+        <i class="fa-solid fa-arrow-right"></i>
+        <a href="Resources.html">Resources</a>
+      </p>
+    </div>
+    <section>
+      
+      <div class="c-labs">
+        <p>state of the art computer labs</p>
+        <div>
+          <img src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="computer lab">
+        </div>
+      </div>
+      
+      <div class="r-labs">
+        <p>research labs</p>
+        <div>
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="research">
+        </div>
+      </div>
+      
+      <div class="TA">
+        <p>teaching assistants</p>
+        <div>
+          <img src="https://dcs.ug.edu.gh/img/gallery/PHOTO-2019-03-04-14-42-37.jpg" alt="staff">
+        </div>
+      </div>
+      
+    </section>
+
   </body>
   <footer>
     <div id="contact">
-      <p>
-          <span>Email</span><br />
-          dcs@ug.edu.gh
-      </p>
-      <p>
-          <span>Phone</span><br />
-          +233 501 382 035<br/>
-          +233 559 145 698
-      </p>
-      <p>
-          <span>Location</span><br />
-          University Of Ghana, Legon Campus<br />
-          Opposite Mathematics Department
-      </p>
-  </div>
-</footer>
+        <p id="email">
+            <span>Email</span><br />
+            <i class="fa-solid fa-envelope"></i>
+            dcs@ug.edu.gh
+        </p>
+        <p id="phone">
+            <span>Phone</span><br />
+            <i class="fa-solid fa-phone"></i>
+            +233 501 382 035<br/>
+            <i class="fa-solid fa-phone"></i>
+            +233 559 145 698
+        </p>
+        <p id="loaction">
+            <span>Location</span><br />
+            <i class="fa-solid fa-location-dot"></i>
+            University Of Ghana, Legon Campus<br />
+            <i class="fa-solid fa-location-dot"></i>
+            Opposite Mathematics Department
+        </p>
+        <p id="socials">
+            <span>Socials</span><br />
+            <i class="fa-brands fa-instagram"></i>
+            @ugcomputerscience<br />
+            <i class="fa-brands fa-x-twitter"></i>
+            @ugdcit
+        </p>
+    </div>
+  </footer>
 </html>

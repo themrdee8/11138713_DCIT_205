@@ -1,0 +1,99 @@
+.page-title {
+    border: 1px solid transparent;
+    padding: 100px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #bdc3c7, #2c3e50);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-family: luminari, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arrow i {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.arrow {
+    padding-top: 10px;
+}
+
+section > div {
+    margin-top: 30px;
+    background-color: white;
+    /* resize: horizontal;
+    width: 700px;
+    margin: auto; */
+}
+
+.c-labs {
+    resize: horizontal;
+    overflow: auto;
+    width: 50%;
+    padding: 0px;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.c-labs p {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+}
+
+img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.r-labs div {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.r-labs p {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.r-labs {
+    resize: horizontal;
+    overflow: auto;
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.TA {
+    resize: horizontal;
+    overflow: auto;
+    width: 50%;
+    padding: 0px;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.TA p {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+}

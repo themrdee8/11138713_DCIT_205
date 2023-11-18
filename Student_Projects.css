@@ -1,0 +1,66 @@
+.page-title {
+    border: 1px solid transparent;
+    padding: 100px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #243b55 ,#141e30);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: azure;
+    font-family: luminari, Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+
+.arrow i {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.arrow {
+    padding-top: 10px;
+}
+
+.arrow a {
+    color: azure;
+}
+
+section {
+    display: grid;
+    grid-template-areas: 
+    "project-1 project-2 project-3";
+    padding-left: 90px;
+}
+
+section div {
+    color: #bdc3c7;
+    border: 1px solid transparent;
+    width: 200px;
+    padding: 30px;
+    height: 25vh;
+    margin: 30px 30px 40px 40px;
+    border-radius: 40px;
+    background-image: linear-gradient(to bottom right,#004e92, #000428);
+}
+
+.project {
+    text-align: center;
+}
+
+.p1 {
+    border:  3px solid gray;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.project span {
+    
+    padding: 5px;
+}
+
+.project i {
+    
+    margin-bottom: 10px;
+    padding: 30px;
+}

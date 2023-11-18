@@ -1,0 +1,124 @@
+#page-title {
+    background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    border: 3px solid transparent;
+    text-align: center;
+    /* margin-top: 51px; */
+    padding: 150px;
+    color: #D1CFCE;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: optima, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.arrow i {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.arrow a {
+    color: #D1CFCE;
+}
+.arrow {
+    padding-top: 10px;
+}
+.welcome-section {
+    margin-top: 10px;
+    padding: 50px;
+    padding-top: 4px;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 40px;
+    font-family: luminari, Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    padding: 0;
+}
+
+.welcome-section p {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.know-us {
+    background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    border: 2px solid transparent;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.intro {
+    margin-bottom: 40px;   
+}
+
+.intro h1 {
+    font-size: 30px;
+    font-family: luminari, Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.organization {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas: 
+    "title info";
+    resize: horizontal;
+    overflow: auto;
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+    margin-left: -10px;
+}
+
+.community {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas: 
+    "title info";
+    resize: horizontal;
+    overflow: auto;
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#info {
+    grid-area: info;
+}
+
+#title {
+    grid-area: title;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-family: baskerville;
+    text-transform: uppercase;
+}
+
+.distance {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas: 
+    "title info";
+    resize: horizontal;
+    overflow: auto;
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+    margin-left: 34px;
+}
+
+.future {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas: 
+    "title info";
+    resize: horizontal;
+    overflow: auto;
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+    margin-left: 10px;
+}

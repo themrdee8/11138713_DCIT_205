@@ -1,0 +1,16 @@
+.page-title {
+    border: 3px solid gold;
+    margin-top: 52px;
+    padding: 55px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.arrow i {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.arrow {
+    padding-top: 10px;
+}

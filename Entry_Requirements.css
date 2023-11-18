@@ -1,0 +1,97 @@
+.page-title {
+    border: 3px solid transparent;
+    /* margin-top: 51px; */
+    padding: 100px;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 60px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #F3F0CE ;
+    font-family: luminari, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arrow i {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.arrow {
+    padding-top: 10px;
+}
+
+.arrow a {
+    color: #F3F0CE;
+}
+
+.en {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.programs{
+    margin-bottom: 30px;
+}
+.bsc-MS {
+    margin-bottom: 40px;
+    resize: horizontal;
+    overflow: auto;
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-left: 5px;
+    background-image: linear-gradient(to bottom right, #916522 ,#D2C227);
+    border-radius: 50px;
+}
+
+.bsc-IT {
+    border-radius: 50px;
+    margin-bottom: 40px;
+    resize: horizontal;
+    overflow: auto;
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-left: 50px;
+    background-image: linear-gradient(to bottom right, #D2C227, #916522);
+}
+
+.msc-CS {
+    border-radius: 35px;
+    margin-bottom: 40px;
+    resize: horizontal;
+    overflow: auto;
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-left: 100px;
+    background-image: linear-gradient(to bottom right, #916522  ,#D2C227);
+}
+
+.mph-CS {
+    border-radius: 35px;
+    margin-bottom: 40px;
+    resize: horizontal;
+    overflow: auto;
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-left: 150px;
+    background-image: linear-gradient(to bottom right, #D2C227, #916522);
+}
+
+.phd {
+    border-radius: 50px;
+    margin-bottom: 40px;
+    resize: horizontal;
+    overflow: auto;
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-left: 200px;
+    background-image: linear-gradient(to bottom right, #916522  ,#D2C227);
+}
