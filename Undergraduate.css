@@ -1,9 +1,12 @@
 .page-title {
-    border: 3px solid gold;
-    margin-top: 52px;
-    padding: 55px;
-    border-radius: 20px;
+    border: 1px solid transparent;
+    padding: 100px;
+    border-radius: 0 0 50px 50px;
     margin-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right,#ffd89b,#19547b);
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .arrow i {
@@ -13,4 +16,93 @@
 
 .arrow {
     padding-top: 10px;
+}
+
+.arrow a {
+    color: azure;
+}
+
+td {
+    padding-right: 15px;
+}
+
+.CS {
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-areas:
+    "cs cs" 
+    "level-1 level-2";
+    margin-top: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
+    color: beige;
+    border-radius: 0 50px 0 50px;
+}
+
+#cs {
+    grid-area: cs;
+    padding: 20px 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    
+}
+.level {
+    border-bottom: 2px solid brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.IT {
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-areas:
+    "it it" 
+    "level-1 level-2";
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
+    color: beige;
+    padding: 20px;
+    border-radius: 0 50px 0 50px;
+}
+
+#it {
+    grid-area: it;
+    padding: 20px 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.sem {
+    padding: 10px 0;
+}
+
+.elective {
+    padding: 5px 0;
+}
+
+.sem {
+    font-size: 18px;
+    color: white;
+}
+
+.name {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.specs {
+    resize: horizontal;
+    overflow: auto;
+    width: 850px;
+    padding: 40px 10px;
+    margin: auto;
+    margin-left: 0;
 }

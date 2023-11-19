@@ -1,3 +1,13 @@
+.page-title {
+    border: 1px solid transparent;
+    padding: 100px;
+    border-radius: 0 0 50px 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right,#BCE6FF,#19547b);
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .arrow i {
     padding-right: 3px;
     padding-left: 3px;
@@ -5,4 +15,8 @@
 
 .arrow {
     padding-top: 10px;
+}
+
+.arrow a {
+    color: azure;
 }
