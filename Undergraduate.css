@@ -4,7 +4,7 @@
     border-radius: 0 0 50px 50px;
     margin-bottom: 50px;
     text-align: center;
-    background-image: linear-gradient(to bottom right,#ffd89b,#19547b);
+    background-image: url(https://images.unsplash.com/photo-1629470937900-f9ef0f2a8086?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

@@ -4,7 +4,7 @@
     border-radius: 0 0 50px 50px;
     margin-bottom: 50px;
     text-align: center;
-    background-image: linear-gradient(to bottom right,#BCE6FF,#19547b);
+    background-image: url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -19,4 +19,39 @@
 
 .arrow a {
     color: azure;
+}
+
+.specs {
+    text-align: center;
+}
+
+.program-specs {
+    
+    padding: 20px;
+}
+
+.instructor {
+    
+    padding: 20px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.cert {
+    
+    padding: 20px;
+    margin: 30px;
+    margin-top: 50px; 
+}
+
+.register {
+    border: 1px solid goldenrod;
+    margin: 70px 250px 30px 250px;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+.register:hover {
+    background-color: brown;
+    cursor: pointer;
 }

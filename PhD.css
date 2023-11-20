@@ -4,7 +4,7 @@
     border-radius: 0 0 50px 50px;
     margin-bottom: 50px;
     text-align: center;
-    background-image: linear-gradient(to bottom right,#BCE6FF,#19547b);
+    background-image: url(https://images.unsplash.com/photo-1577036056967-aec1101ab9de?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -19,4 +19,52 @@
 
 .arrow a {
     color: azure;
+}
+
+.courses {
+    border: 1px solid transparent;
+    margin: 80px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-areas: 
+    "year-1 year-2"
+    "year-1 year-3"
+    "year-1 year-4";
+    padding: 20px;
+    border-radius: 0 50px 0 50px;
+    background-image: linear-gradient(to bottom right, #bdc3c7, #2c3e50);
+    color: lightcyan;
+}
+
+#year-1 {
+    grid-area: year-1;
+}
+
+#heading {
+    margin: 80px;
+    margin-bottom: 0;
+    font-family: tahoma;
+    text-transform: uppercase;
+}
+
+table td{
+    padding: 4px;
+}
+
+.specs {
+    resize: horizontal;
+    overflow: auto;
+    width: 900px;
+    padding: 40px 10px;
+    margin: auto;
+    margin-left: 0;
+}
+
+.description {
+    resize: horizontal;
+    overflow: auto;
+    width: 900px;
+    padding: 40px 10px;
+    margin: auto;
+    margin-left: 0;
 }
