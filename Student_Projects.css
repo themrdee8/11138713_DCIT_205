@@ -5,7 +5,7 @@
     background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    color: azure;
+    color: black;
     font-family: luminari, Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 30px;
 }
@@ -20,7 +20,7 @@
 }
 
 .arrow a {
-    color: azure;
+    color: black;
 }
 
 section {
