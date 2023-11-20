@@ -24,3 +24,6 @@ Learned how to use HTML elements and tags more efficiently
 Gained a deeper understanding and apprreciation for CSS
 
 ## Screenshots of Website
+
+![About](https://github.com/themrdee8/11138713_DCIT_205/assets/133960838/7a0215a8-0f45-495b-a9ea-a1f514c31a80)
+[about.pdf](https://github.com/themrdee8/11138713_DCIT_205/files/13417447/about.pdf)
